@@ -41,21 +41,21 @@ En résumé, la navigation Android avec Kotlin vous permet de mettre en place un
 `<navigation xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 android:id="@+id/nav_graph"
-app:startDestination="@id/homeFragment">`  
+app:startDestination="@id/homeFragment">`
 
-    `<fragment
+    <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.myapplication.HomeFragment"
         android:label="Home">
         <action
             android:id="@+id/action_homeFragment_to_settingsFragment"
             app:destination="@id/settingsFragment" />
-    </fragment>`  
+    </fragment>
 
-    `<fragment
+    <fragment
         android:id="@+id/settingsFragment"
         android:name="com.example.myapplication.SettingsFragment"
-        android:label="Settings" />`  
+        android:label="Settings" />
 `</navigation>`
 
 3. Dans votre layout XML, ajoutez un fragment de navigation qui affichera votre graph de navigation :
