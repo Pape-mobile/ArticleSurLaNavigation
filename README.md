@@ -6,8 +6,8 @@ Il existe plusieurs façons de mettre en place la navigation dans une applicatio
 
 Pour utiliser ce framework, vous devez d'abord ajouter le dépendance de navigation à votre fichier build.gradle :
 
-`implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'  
-implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'`
+`implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'`  
+`implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'`
 
 Ensuite, vous pouvez définir votre graph de navigation dans un fichier de ressources de navigation (navigation.xml) situé dans le répertoire res/navigation de votre projet. Dans ce fichier, vous pouvez définir les différentes destinations de votre application (écrans) et les actions de navigation (boutons, etc.) qui permettent de passer d'une destination à une autre.
 
