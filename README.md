@@ -77,7 +77,7 @@ Ce code utilise l'action de navigation définie dans le fichier de ressources de
 
 ### Voici comment ajouter un argument à l'action de navigation dans l'exemple précédent :
 
-1. Définissez un argument dans votre destination de destination dans le fichier de ressources de navigation (navigation.xml) :
+1. Définissez un argument dans votre destination dans le fichier de ressources de navigation (navigation.xml) :
 
 `<fragment
 android:id="@+id/settingsFragment"
@@ -118,7 +118,7 @@ Vous pouvez également utiliser la bibliothèque Safe Args pour générer des cl
 
 `implementation 'androidx.navigation:navigation-safe-args-gradle-plugin:2.3.1'`
 
-2. Dans le fichier de ressources de navigation (navigation.xml), définissez un argument pour votre destination de destination comme dans l'exemple précédent :
+2. Dans le fichier de ressources de navigation (navigation.xml), définissez un argument pour votre destination comme dans l'exemple précédent :
 
 `<fragment
 android:id="@+id/settingsFragment"
